@@ -1,6 +1,6 @@
 import './Video.css';
 
-let items=['Item 1','Item 2','Item 3','Item 4','Item 5'];
+let items=['PylonSong.mp3','Item 2'];
 
 let itemList=items.map((item,index)=>{
   return <>
