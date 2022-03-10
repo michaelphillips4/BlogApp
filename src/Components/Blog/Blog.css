@@ -6,9 +6,9 @@
     bottom: 3px;
 }
 
-.blogpost-add-button
+.addblog-link
 {
-   
-    padding-left: 30px;
-
+    float: right;
+    padding-top: 10px;;
+    font-size:medium;
 }
