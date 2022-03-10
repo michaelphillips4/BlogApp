@@ -1,0 +1,14 @@
+.blogpost-delete-button
+{
+    float: right;
+    margin:10px;
+    padding: 30px;
+    bottom: 3px;
+}
+
+.blogpost-add-button
+{
+   
+    padding-left: 30px;
+
+}
