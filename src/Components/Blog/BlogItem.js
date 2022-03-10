@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function BlogItem() {
   return (
     <>
-       <Link to="/" >Home</Link>
+      <Link to="/" >Back</Link>
       <h2>Add New Blog</h2>
       <textarea rows="20" cols="200"></textarea>
       <br />
