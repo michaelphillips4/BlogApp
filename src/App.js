@@ -1,13 +1,11 @@
 import "./App.css";
-import Music from "./Components/Music/Music.js";
-import Video from "./Components/Video/Video.js";
 import Blog from "./Components/Blog/Blog.js";
 
 function App() {
   return (
     <>
-      <div class="main">
-        <div class="box">
+      <div className="main">
+        <div className="box">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -21,16 +19,6 @@ function App() {
           ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
           ea voluptate velit esse quam nihil molestiae consequatur, vel illum
           qui dolorem eum fugiat quo voluptas nulla pariatur
-        </div>
-        <div>
-          <div className="panel-music">
-            <h2>Music</h2>
-            <Music />
-          </div>
-          <div className="panel-video">
-            <h2>Videos</h2>
-            <Video />
-          </div>
         </div>
         <Blog />
       </div>

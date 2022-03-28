@@ -12,3 +12,7 @@
     padding-top: 10px;;
     font-size:medium;
 }
+
+.list-item{
+    list-style-type: none;
+}

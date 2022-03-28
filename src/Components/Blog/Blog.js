@@ -11,7 +11,7 @@ let items = [
 
 let itemList = items.map((item, index) => {
   return (
-    <li key={index}>
+    <li className="list-item" key={index}>
       <div className="box blogPost">{item}</div>
     </li>
   );
